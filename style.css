@@ -9,6 +9,8 @@ body {
     align-items: center;
     margin-top: 19rem;
     width: 100%;
+    cursor: pointer;
+    background: #F3F8FE;
 
 }
 h1 {
@@ -28,7 +30,7 @@ h2 {
      padding: .3rem;
      width:16.3rem ;
      height: 1.5rem;
-     margin: 0 150px;
+     margin: 0 12rem;
 }
 p {
     font-size: 13px;
@@ -39,33 +41,47 @@ p {
 }
 
 .main {
-    width: 35rem;
-    height: 18rem;
-   background-color: hwb(192 65% 1%);
-   border-radius: .5rem;
+    position: absolute;
+    width: 40rem;
+    height: 16rem;
+   background-color: #DDE5F9;
+   border-radius: .9rem;
 
-   
 
 }
 .container {
-    position: absolute;
-    background-color:hsl(240, 98%, 59%) ;
-    width: 34rem;
-    height: 17rem;
-   border-radius: .5rem;
+    position: relative;
+    background-color:#2D4EC6 ;
+    width: 38.5rem;
+    height: 15rem;
+   border-radius: .9rem;
    text-align: center;
       
 }
- form {
-    margin-top: 1.2rem;
-    margin-left: 7.5rem;
-    width: 15.6rem;
-    
-}
+ .icon {
+    position: absolute;
+    margin-left: 16.2rem;
+    margin-top: 1.7rem;
+    padding: 20px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 50%;
+    width: 50px;
+    background: #FFFFFF;
+    color: #6b6969;
+ }
+
 .email {
     width: 20rem;
-    border-radius: .5rem;
-    font-size: 1.1rem;
-    padding: .5rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(104, 103, 103);
+    font-size: .8rem;
+    padding: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    background: hsl(226, 96%, 82%);
+    margin-top: 1.5rem;
+
     
 }
+
